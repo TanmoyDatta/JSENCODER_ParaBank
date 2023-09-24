@@ -4,18 +4,18 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage{
 	
-	public String Home_URL ="http://159.89.38.11/login";
-	public By Email_input = By.xpath("//input[@id='email-1']");
-	public By Pass_input = By.xpath("//input[@id='password-1']");
-	public By Login_BTN = By.xpath("//button[@id='m_login_signin_submit']");
+	public String Login_URL ="https://parabank.parasoft.com/parabank/index.htm";
+	public By UserName_input = By.xpath("//input[@type='text']");
+	public By Password_input = By.xpath("//input[@type='password']");
+	public By Login_Button = By.cssSelector("input[value='Log In']");
 	
 	
 	public void dologin(String username, String password) throws InterruptedException {	
-		writeTextOnElement(Email_input,username);
-		writeTextOnElement(Pass_input,password);
+		writeTextOnElement(UserName_input,username);
+		writeTextOnElement(Password_input,password);
 		Thread.sleep(2000);
 		
-		clickOnElement(Login_BTN);
-		Thread.sleep(5000);
+		clickOnElement(Login_Button);
+		Thread.sleep(2000);
 	}
 }
