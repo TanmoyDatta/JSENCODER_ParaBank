@@ -5,9 +5,11 @@ import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 
 import pages.AccountsPage;
+import pages.BillPayPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.RegisterPage;
+import pages.TransferFundsPage;
 import utilities.Dataset;
 import utilities.DriverSetUp;
 
@@ -16,6 +18,8 @@ public class TestCases extends DriverSetUp{
 	LoginPage loginPage = new LoginPage();
 	HomePage homePage = new HomePage();
 	AccountsPage accountsPage = new AccountsPage();
+	TransferFundsPage transferFundsPage = new TransferFundsPage();
+	BillPayPage billPayPage = new BillPayPage();
 //	@Test(priority = 0)
 //	public void RegisterPage() throws InterruptedException {
 //		getDriver().get(registerPage.Home_URL);
@@ -40,8 +44,17 @@ public class TestCases extends DriverSetUp{
 		accountsPage.AccountDetails();
 		assertEquals(accountsPage.AccountDeatails_Title,"Account Details");
 		Thread.sleep(2000);
+		assertEquals(accountsPage.getElementText(accountsPage.AccountNumber),"Account Number:");
+		assertEquals(accountsPage.getElementText(accountsPage.AccountType),"Account Type:");
+		assertEquals(accountsPage.getElementText(accountsPage.Balance),"Balance:");
+		assertEquals(accountsPage.getElementText(accountsPage.AvaiableBalance),"Available:");
+		
+		transferFundsPage.TransferFunds();
+		assertEquals(transferFundsPage.getElementText(transferFundsPage.TransferComplete),"Transfer Complete!");
+		
+		
+		billPayPage.BillPay();
+		assertEquals(billPayPage.Billpayment,"Bill Payment Complete");
 	}
 	
-
-
 }

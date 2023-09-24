@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-24T12:25:16 BDT" name="Default suite" finished-at="2023-09-24T12:28:36 BDT" duration-ms="199868">
+  <suite started-at="2023-09-24T14:53:29 BDT" name="Default suite" finished-at="2023-09-24T14:56:53 BDT" duration-ms="203542">
     <groups>
     </groups>
-    <test started-at="2023-09-24T12:25:16 BDT" name="Default test" finished-at="2023-09-24T12:28:36 BDT" duration-ms="199868">
+    <test started-at="2023-09-24T14:53:29 BDT" name="Default test" finished-at="2023-09-24T14:56:53 BDT" duration-ms="203542">
       <class name="testcases.TestCases">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.TestCases@470734c3]" started-at="2023-09-24T12:25:09 BDT" name="setBrowser" finished-at="2023-09-24T12:25:16 BDT" duration-ms="7486" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.TestCases@7674f035]" started-at="2023-09-24T14:53:21 BDT" name="setBrowser" finished-at="2023-09-24T14:53:29 BDT" duration-ms="8341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="loginpageswithValidCredensialUsingDataprovider(java.lang.String,java.lang.String)[pri:1, instance:testcases.TestCases@470734c3]" started-at="2023-09-24T12:25:17 BDT" name="loginpageswithValidCredensialUsingDataprovider" description="Login with valid value" data-provider="ValidCredensial" finished-at="2023-09-24T12:25:33 BDT" duration-ms="16464" status="PASS">
+        <test-method signature="loginpageswithValidCredensialUsingDataprovider(java.lang.String,java.lang.String)[pri:1, instance:testcases.TestCases@7674f035]" started-at="2023-09-24T14:53:29 BDT" name="loginpageswithValidCredensialUsingDataprovider" description="Login with valid value" data-provider="ValidCredensial" finished-at="2023-09-24T14:53:50 BDT" duration-ms="20621" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,29 +27,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageswithValidCredensialUsingDataprovider -->
-        <test-method signature="HomePage()[pri:2, instance:testcases.TestCases@470734c3]" started-at="2023-09-24T12:25:33 BDT" name="HomePage" description="Home Page" finished-at="2023-09-24T12:25:33 BDT" duration-ms="467" status="PASS">
+        <test-method signature="HomePage()[pri:2, instance:testcases.TestCases@7674f035]" started-at="2023-09-24T14:53:50 BDT" name="HomePage" description="Home Page" finished-at="2023-09-24T14:53:50 BDT" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePage -->
-        <test-method signature="AccountOverViewPage()[pri:3, instance:testcases.TestCases@470734c3]" started-at="2023-09-24T12:25:33 BDT" name="AccountOverViewPage" description="Account Details Page" finished-at="2023-09-24T12:28:36 BDT" duration-ms="182865" status="FAIL">
+        <test-method signature="AccountOverViewPage()[pri:3, instance:testcases.TestCases@7674f035]" started-at="2023-09-24T14:53:50 BDT" name="AccountOverViewPage" description="Account Details Page" finished-at="2023-09-24T14:56:53 BDT" duration-ms="182459" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[java.util.concurrent.TimeoutException
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, findElement {using=xpath, value=//*[@id="accountTable"]/tbody/tr[1]/td[1]/a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988]]>
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, findElement {using=xpath, value=//*[@id="accountTable"]/tbody/tr[1]/td[1]/a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, findElement {using=xpath, value=//*[@id="accountTable"]/tbody/tr[1]/td[1]/a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, findElement {using=xpath, value=//*[@id="accountTable"]/tbody/tr[1]/td[1]/a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f
 at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
 at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
@@ -67,8 +67,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
 at pages.BasePage.getElement(BasePage.java:14)
 at pages.BasePage.clickOnElement(BasePage.java:19)
-at pages.AccountsPage.AccountDetails(AccountsPage.java:13)
-at testcases.TestCases.AccountOverViewPage(TestCases.java:40)
+at pages.AccountsPage.AccountDetails(AccountsPage.java:18)
+at testcases.TestCases.AccountOverViewPage(TestCases.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,25 +109,25 @@ at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHand
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountOverViewPage -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.TestCases@470734c3]" started-at="2023-09-24T12:28:36 BDT" name="quitBrowser" finished-at="2023-09-24T12:29:02 BDT" duration-ms="25233" status="FAIL">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.TestCases@7674f035]" started-at="2023-09-24T14:56:53 BDT" name="quitBrowser" finished-at="2023-09-24T14:57:18 BDT" duration-ms="25215" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Timed out waiting for driver server to stop.
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988]]>
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1433346918\testng-customsuite.xml</span>
+                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1387160760\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -152,9 +152,9 @@
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f
 	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
@@ -172,8 +172,8 @@ Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
 	at pages.BasePage.getElement(BasePage.java:14)
 	at pages.BasePage.clickOnElement(BasePage.java:19)
-	at pages.AccountsPage.AccountDetails(AccountsPage.java:13)
-	at testcases.TestCases.AccountOverViewPage(TestCases.java:40)
+	at pages.AccountsPage.AccountDetails(AccountsPage.java:18)
+	at testcases.TestCases.AccountOverViewPage(TestCases.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -246,7 +246,7 @@ Caused by: java.util.concurrent.TimeoutException
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1433346918\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1387160760\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -299,15 +299,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AccountOverViewPage')
 data.setCell(0, 2, 'testcases.TestCases')
-data.setCell(0, 3, 182865);
+data.setCell(0, 3, 182459);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginpageswithValidCredensialUsingDataprovider')
 data.setCell(1, 2, 'testcases.TestCases')
-data.setCell(1, 3, 16464);
+data.setCell(1, 3, 20621);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'HomePage')
 data.setCell(2, 2, 'testcases.TestCases')
-data.setCell(2, 3, 467);
+data.setCell(2, 3, 385);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -345,23 +345,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">loginpageswithValidCredensialUsingDataprovider(Tanmoy, 123456)</span>
-                <span class="method-start">7539 ms</span>
+                <span class="method-start">8398 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">HomePage</span>
-                <span class="method-start">24011 ms</span>
+                <span class="method-start">29028 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">AccountOverViewPage</span>
-                <span class="method-start">24484 ms</span>
+                <span class="method-start">29415 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">207433 ms</span>
+                <span class="method-start">211997 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

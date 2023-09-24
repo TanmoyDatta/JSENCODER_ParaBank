@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 24 12:25:16 BDT 2023</td>
+<td>Started on:</td><td>Sun Sep 24 14:53:29 BDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>199 seconds (199868 ms)</td>
+<tr><td>Total time:</td><td>203 seconds (203542 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,9 +81,9 @@ function toggleAllBoxes() {
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f
 	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
@@ -101,8 +101,8 @@ Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
 	at pages.BasePage.getElement(BasePage.java:14)
 	at pages.BasePage.clickOnElement(BasePage.java:19)
-	at pages.AccountsPage.AccountDetails(AccountsPage.java:13)
-	at testcases.TestCases.AccountOverViewPage(TestCases.java:40)
+	at pages.AccountsPage.AccountDetails(AccountsPage.java:18)
+	at testcases.TestCases.AccountOverViewPage(TestCases.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,14 +137,14 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
 	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
 	... 46 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1133730108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1133730108'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+</pre></div><a href='#' onClick='toggleBox("stack-trace527247308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace527247308'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d8a801b-15c6-44d5-936e-a5c04d0ad988, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:26766, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12064, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26766/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
+Command: [517902cb-bf82-4432-8780-e1e87c9bf88f, findElement {using=xpath, value=//*[@id=&quot;accountTable&quot;]/tbody/tr[1]/td[1]/a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0, moz:accessibilityChecks: false, moz:buildID: 20230918143747, moz:debuggerAddress: 127.0.0.1:43782, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10876, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43782/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 517902cb-bf82-4432-8780-e1e87c9bf88f
 	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
 	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
@@ -162,8 +162,8 @@ Session ID: 0d8a801b-15c6-44d5-936e-a5c04d0ad988
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
 	at pages.BasePage.getElement(BasePage.java:14)
 	at pages.BasePage.clickOnElement(BasePage.java:19)
-	at pages.AccountsPage.AccountDetails(AccountsPage.java:13)
-	at testcases.TestCases.AccountOverViewPage(TestCases.java:40)
+	at pages.AccountsPage.AccountDetails(AccountsPage.java:18)
+	at testcases.TestCases.AccountOverViewPage(TestCases.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -200,7 +200,7 @@ Caused by: java.util.concurrent.TimeoutException
 	... 46 more
 </pre></div></td>
 <td>182</td>
-<td>testcases.TestCases@470734c3</td></tr>
+<td>testcases.TestCases@7674f035</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -211,15 +211,15 @@ Caused by: java.util.concurrent.TimeoutException
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testcases.TestCases.loginpageswithValidCredensialUsingDataprovider()'><b>loginpageswithValidCredensialUsingDataprovider</b><br>Test class: testcases.TestCases<br>Test method: Login with valid value<br>Parameters: Tanmoy, 123456</td>
+<td></td>
+<td>20</td>
+<td>testcases.TestCases@7674f035</td></tr>
+<tr>
 <td title='testcases.TestCases.HomePage()'><b>HomePage</b><br>Test class: testcases.TestCases<br>Test method: Home Page</td>
 <td></td>
 <td>0</td>
-<td>testcases.TestCases@470734c3</td></tr>
-<tr>
-<td title='testcases.TestCases.loginpageswithValidCredensialUsingDataprovider()'><b>loginpageswithValidCredensialUsingDataprovider</b><br>Test class: testcases.TestCases<br>Test method: Login with valid value<br>Parameters: Tanmoy, 123456</td>
-<td></td>
-<td>16</td>
-<td>testcases.TestCases@470734c3</td></tr>
+<td>testcases.TestCases@7674f035</td></tr>
 </table><p>
 </body>
 </html>
